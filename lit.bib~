@@ -1,0 +1,32 @@
+@manual{V21,
+  author = {TU Dortmund},
+  title = {Optisches Pumpen},
+  url = {http://129.217.224.2/HOMEPAGE/Anleitung_FPBSc.html},
+  urldate={2016-04-13}
+}
+@manual{V46,
+  author = {TU Dortmund},
+  title = {Faraday-Effekt},
+  url = {http://129.217.224.2/HOMEPAGE/Anleitung_FPBSc.html},
+  urldate={2016-01-21}
+}
+@manual{wiki,
+  url = {https://de.wikipedia.org/wiki/Verzoegerungsplatte#/media/File:Lambda4.svg},
+  urldate={2016-04-16}
+}
+@book{Taschenbuch,
+    author= {Horst Kuchling},
+    title ={Taschenbuch der Physik},
+    edition = {20}
+}
+@book{Physik,
+    title={Kleine Enzyklopädie Physik},
+    year={1978},
+    editor={P. Rennert, H. Schmiedel, C. Weißmantel}
+}
+@book{Praktikum,
+    title={Physikalisches Praktikum},
+    year={2001},
+    editor={Dieter Geschke},
+    edition={12}
+}

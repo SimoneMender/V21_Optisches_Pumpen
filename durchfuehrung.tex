@@ -1,8 +1,20 @@
 \section{Durchführung}
-Als Erstes wird die Heizung der Dampfzelle angestellt, da dies mindestens eine halbe Stunde vor Beginn der Messung erfolgen muss.
+Als Erstes werden der Polarisationsfilter und das $\lambda/4$-Plättchen aus dem Strahlengang genommen, damit zur Justierung mehr Licht auf den Detektor trifft.
+Dann wird mit den Linsen der Strahlengang so justiert, dass die Intensität am Lichtdetektor maximal ist.
+Nun werden die entfernten optischen Elemente wieder in den Strahlengang gestellt und der
+Aufbau wird mit einer schwarzen Decke abgedeckt, sodass kein von außen
+einfallendes Licht auf den Lichtdetektor trifft.
 
-Der Strahlengang wird so justiert, dass die Inensität am Lichtdetektor maximal ist...
-Dann wird der Aufbau mit einer schwarzen Decke abgedeckt, sodass kein von außen einfallendes Licht auf den Lichtdetektor trifft.
+Da die Feldstärken der Spulen in der gleichen Größenordnung liegen wie das
+Erdmagnetfeld\footnote{Die horizontale Komponente beträgt in Deutschland etwa
+ $20\,\upmu\text{T}$ und die vertikale etwa $44\,\upmu\text{T}$. (von Wikipedia..Quelle mache ich, wenn das wieder klappt mit git)},
+ muss das Erdmagnetfeld kompensiert werden. Die horizontale Komponente
+ wird durch eine parallele Ausrichtung der optischen Achse zur Nord-Süd-Richtung minimiert.
+ Die vertikale Komponente des Erdmagnetfeldes wird durch die Vertikalfeldspule minimiert.
+ Dazu wird das Magnetfeld der Vertikalspule solange variiert, bis der auf dem Oszilloskop zu sehende Peak minimal ist.
 
-
-Da die Feldstärken der Spulen in der gleichen Größenordnung liegen wie das Erdmagnetfeld\footnote{Die horizontale Komponente beträgt in Deutschland etwa $20\,\upmu\text{T}$ und die vertikale etwa $44\,\upmu\text{T}$. (von Wikipedia..)}, muss das Erdmagnetfeld kompensiert werden. Die horizontale Komponente wird durch eine parallele Ausrichtung der optischen Achse zur Nord-Süd-Richtung minimiert. Die vertikale Komponente des Erdmagnetfeldes wird durch die Vertikalfeldspule minimiert.
+ Die eigentliche Messung besteht darin, die Frequenzen der Sweep-Spule von  $100\,\text{kHz}$ in $100\,\text{kHz}$-Schritten auf $1\,\text{MHz}$ zu
+ erhöhen und für jede Frequenz die Resonanzpositionen auszumessen.
+ Die Stärke des gesamten Horizontalfeldes setzt sich aus dem Sweep-Feld und dem Horizontalfeld zusammen, da Frequenzen von
+ $300\,\text{kHz}$ zusätzlich zu der Sweep-Spule mit der Horizontalfeld-Spule ein weiteres horizontales Feld erzeugt werden muss,
+ um den Bereich des oszillierenden Feldes auf die Resonanzen zu verschieben.

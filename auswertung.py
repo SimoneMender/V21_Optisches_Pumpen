@@ -50,8 +50,8 @@ B_hor = (mu0 * 8/np.sqrt(125)* (I3*N3)/R3) + (mu0 * 8/np.sqrt(125)* (I2*N2)/R2)
 
 B_hor*=10**(6)
 
-print('dfg')
-print(B_hor)
+#print('dfg')
+#print(B_hor)
 
 def f(B_hor, a, b):
     return a*B_hor+ b
@@ -61,8 +61,8 @@ params, covariance = curve_fit(f, B_hor, F)
 
 errors = np.sqrt(np.diag(covariance))
 
-print('a =', params[0], '±', errors[0])
-print('b =', params[1], '±', errors[1])
+print('a =', params[0], '±', errors[0], 'in kHz/muT')
+print('b =', params[1], '±', errors[1], 'in kHz')
 
 a1 = ufloat(params[0], errors[0])
 b1 = ufloat(params[1], errors[1])
@@ -90,8 +90,8 @@ params, covariance = curve_fit(f, B_hor, F)
 
 errors = np.sqrt(np.diag(covariance))
 
-print('c =', params[0], '±', errors[0])
-print('d =', params[1], '±', errors[1])
+print('c =', params[0], '±', errors[0], 'in kHz/muT')
+print('d =', params[1], '±', errors[1], 'in kHz')
 
 c1 = ufloat(params[0], errors[0])
 d1 = ufloat(params[1], errors[1])
@@ -112,9 +112,20 @@ print(x3)
 
 g1 = (4*np.pi*m0*a1)/(e0)
 print('g1')
-print(g1*10**6)
+print(g1*10**9)
 g2 = (4*np.pi*m0*c1)/(e0)
 print('g2')
-print(g2*10**6)
+print(g2*10**9)
 
 # Kernspin berechnen
+
+gj = (3.0023*0.5*(0.5+1)+1.0023*(0.5*(0.5+1)-0.5*(0.5+1)))/(2*0.5*(0.5+1))
+print(gj)
+
+I1 = -1 +(gj/(4*g1))+( (1-(gj/(4*g1)))**2 - (1-gj/g1) )**(0.5)
+print('I_1')
+print(I1)
+
+I2 = -1+ gj/(4*g2)+((1-(gj/(4*g2)))**2 - (1-gj/g2))**(0.5)
+print('I_2')
+print(I2)

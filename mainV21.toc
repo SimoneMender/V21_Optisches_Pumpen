@@ -2,13 +2,14 @@
 \defcounter {refsection}{0}\relax 
 \select@language {german}
 \contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
-\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Drehimpuls und magnetisches Moment in der Elektronenhülle}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Einfluss des Kernspins bei Alkali-Atomen}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Optisches Pumpen}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Präzissionsmessung der Zeeman-Aufspaltung}{7}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Quardratischer Zeemann-Effekt}{9}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Transistente Effekte}{9}{subsection.2.6}
-\contentsline {section}{\numberline {3}Versuchsaufbau}{10}{section.3}
-\contentsline {section}{\numberline {4}Durchführung}{12}{section.4}
-\contentsline {section}{\nonumberline Literatur}{13}{section*.12}
+\contentsline {section}{\numberline {2}Einleitung}{3}{section.2}
+\contentsline {section}{\numberline {3}Theorie}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Drehimpuls und magnetisches Moment in der Elektronenhülle}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Einfluss des Kernspins bei Alkali-Atomen}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Optisches Pumpen}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Präzissionsmessung der Zeeman-Aufspaltung}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Quardratischer Zeemann-Effekt}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Transistente Effekte}{10}{subsection.3.6}
+\contentsline {section}{\numberline {4}Versuchsaufbau}{11}{section.4}
+\contentsline {section}{\numberline {5}Durchführung}{13}{section.5}
+\contentsline {section}{\nonumberline Literatur}{14}{section*.12}

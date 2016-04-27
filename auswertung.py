@@ -174,7 +174,7 @@ print(x2)
 # Quadratischer Zeeman-Effekt
 
 U1=g1*muB*B_hor+g1**2*muB**2*B_hor**2*(1-2)/(4.53e-24)
-#print(U1)
+print(U1)
 
 U2=g2*muB*B_hor+g2**2*muB**2*B_hor**2*(1-2)/(2.01e-24)
-#print(U2)
+print(U2)
